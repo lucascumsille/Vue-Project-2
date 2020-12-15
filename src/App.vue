@@ -29,4 +29,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+body {
+background: linear-gradient(195deg, rgba(226,203,157,1) 0%, rgba(248,255,167,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
 </style>

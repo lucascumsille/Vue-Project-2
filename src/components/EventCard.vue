@@ -1,31 +1,17 @@
 <template>
   <div class="event-card">
-   <!-- Display Data -->
+   <span>@ {{ event.time }} on {{ event.date }} </span>
+   <h4> {{ event.title }} </h4>
   </div>
 </template>
 
 <script>
 export default {
   name: "EventCard",
-  // props: {
-  //   msg: String
-  // }
+  props: {
+    event: Object
+  }
 
-  data() {
-    return {
-      event: {
-        id: 5928101,
-        category: 'animal welfare',
-        title: 'Cat Adoption Day',
-        desciption: 'Find mister Flabert',
-        location: 'Meow Town',
-        date: 'January 28, 2022',
-        time:'12:00',
-        petsAllowed:'true',
-        organizer: 'Kat Laydee' 
-      }// event
-    }
-  } // data
 }; // export
 </script>
 
